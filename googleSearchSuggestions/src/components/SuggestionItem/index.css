@@ -1,0 +1,14 @@
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #475569;
+  margin: 20px;
+}
+.button {
+  height: 25px;
+  width: 25px;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}

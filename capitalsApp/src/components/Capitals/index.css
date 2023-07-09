@@ -1,0 +1,41 @@
+.appContainer {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capitalsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 90%;
+  height: 70%;
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+.questionContainer {
+  display: flex;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+.capitalSelect {
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.option {
+  color: #000000;
+}
+.question {
+  color: #323f4b;
+}
+.country {
+  color: #1e293b;
+}

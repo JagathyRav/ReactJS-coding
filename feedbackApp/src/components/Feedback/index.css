@@ -1,0 +1,63 @@
+.appContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedbackContainer {
+  border-radius: 10px;
+  width: 80%;
+  height: 50%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.question {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+.emojiContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.eachEmoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+.emojiName {
+  color: #1e293b;
+  font-size: 13px;
+}
+
+.emoji {
+  height: 70px;
+  width: 70px;
+}
+.thanking {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 900;
+}
+.descp {
+  color: #1e293b;
+  font-size: 17px;
+}

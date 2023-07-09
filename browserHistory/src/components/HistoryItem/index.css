@@ -1,0 +1,35 @@
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.time {
+  color: #475569;
+  font-weight: 500;
+}
+.itemDetails {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 75%;
+}
+.websiteLogo {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+.title {
+  color: #475569;
+  font-weight: 900;
+  margin-right: 20px;
+}
+.domainUrl {
+  color: #64748b;
+  margin-right: 20px;
+}
+.button {
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+}

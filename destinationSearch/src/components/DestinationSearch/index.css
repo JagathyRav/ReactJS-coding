@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.heading {
+  color: #252627;
+  font-size: 35px;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.search {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  padding: 10px;
+  outline: none;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+}
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

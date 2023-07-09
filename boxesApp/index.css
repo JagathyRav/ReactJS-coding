@@ -1,0 +1,61 @@
+/* Write your code here. */
+
+.bgContainer {
+  background-color: #ffffff;
+
+  height: 100vh;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 25px;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+.BoxesContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bree Serif";
+  color: #ffffff;
+}
+.box1 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbbf24;
+  height: 40px;
+  width: 40px;
+}
+
+.box2 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38bdf8;
+  height: 80px;
+  width: 80px;
+}
+
+.box1 {
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec4899;
+  height: 120px;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .BoxesContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}

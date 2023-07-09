@@ -1,0 +1,36 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.suggestionContainer {
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  font-family: 'Roboto';
+}
+
+.searchContainer {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchImg {
+  height: 25px;
+  width: 25px;
+  margin: 0px;
+}
+.searchText {
+  margin: 0px;
+  color: #64748b;
+  cursor: pointer;
+  outline: none;
+}

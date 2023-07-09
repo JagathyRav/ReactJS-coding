@@ -1,0 +1,51 @@
+.appContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  margin: 0px;
+}
+.headerContainer {
+  height: 10vh;
+  margin: 0px;
+  background-color: #3367d6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.historyLogo {
+  margin-left: 20px;
+}
+.searchContainer {
+  width: 60%;
+}
+.searchImg {
+  border: 1px solid #6697ff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 0px;
+}
+
+::placeholder {
+  color: #ececec;
+}
+.search {
+  color: #ffffff;
+  margin-left: 0px;
+}
+.historyContainer {
+  height: 90vh;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty {
+  color: #475569;
+  font-size: 30px;
+}
+.listContainer {
+  border-radius: 10px;
+  padding: 10px;
+}

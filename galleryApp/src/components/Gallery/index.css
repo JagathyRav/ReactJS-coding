@@ -1,0 +1,34 @@
+.appContainer {
+  height: 100vh;
+  padding: 20px;
+  margin: 0px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgContainer {
+}
+.image {
+  max-width: 90%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.descp {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.thumbnailContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .appContainer {
+    justify-content: center;
+  }
+}

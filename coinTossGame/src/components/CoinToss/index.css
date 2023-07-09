@@ -1,0 +1,54 @@
+.appContainer {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.coinContainer {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.heading {
+  color: #a35200;
+  margin-bottom: 20px;
+}
+.state {
+  color: #334155;
+  margin-bottom: 20px;
+}
+.coin {
+  min-height: 60px;
+  max-height: 120px;
+  min-width: 60px;
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+.button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  background-color: #f9d423;
+  color: #a35200;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.countContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.counts {
+  color: #475569;
+}
